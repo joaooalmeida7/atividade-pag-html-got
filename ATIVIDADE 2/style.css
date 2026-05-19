@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+/* importando fonte poppins */
+
+/* comentário obrigatório: adicionando cor de fundo, setando qual fonte irei utilizar, cor da fonte, zerando a margem e o alinhamento do texto */
+body {
+    background-color: #f3eadc;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+    text-align: justify;
+}
+
+header {
+    background-color: #5c1f1f; /* adicionando cor de fundo */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid #c9a227;
+}
+
+#topo {
+    color: #f4d35e;
+    font-size: 32px;
+}
+
+h2, h3 {
+    color: #7a2e2e;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid #c9a227;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+/* quando passa o mouse, o elemento muda de cor de fundo */
+nav a:hover {
+    background-color: #c9a227;
+    color: #5c1f1f;
+}
+
+main {
+    width: 85%;
+    margin: auto;
+}
+
+section {
+    background-color: #fff8ec;
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #d6b56d;
+    border-radius: 8px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.imagem {
+    display: block;
+    margin: 15px auto;
+    border: 2px solid #5c1f1f;
+    border-radius: 8px;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+ul, ol {
+    /* background-color: #f8e7c4; */
+    padding: 20px;
+    border-left: 4px solid #7a2e2e;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+main a, footer a {
+    color: #7a2e2e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+/* Vídeo */
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #5c1f1f;
+    border-radius: 8px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #5c1f1f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #f4d35e;
+}
